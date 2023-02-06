@@ -2,4 +2,5 @@ SELECT pizza_name
 FROM menu 
 UNION
 SELECT pizza_name 
-FROM menu;
+FROM menu
+ORDER BY 1 DESC;;
